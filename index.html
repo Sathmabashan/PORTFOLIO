@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathma Bashan K B M | Mechatronics Portfolio</title>
+    <meta name="description"
+        content="Professional portfolio of Sathma Bashan K B M, Mechatronics Engineer specializing in Embedded Systems and CAD.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Feather Icons for modern simple icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="paper-texture"></div>
+
+    <header class="main-header">
+        <nav>
+            <div class="logo">SBKBM</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Internships</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Theme">
+                <!-- Moon Icon for Default (Light) Mode -->
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+                <!-- Sun Icon for Dark Mode -->
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-effect"></div>
+            <div class="hero-content">
+                <h1 class="title">SATHMA BASHAN K B M</h1>
+                <h2 class="subtitle tech-subtitle">Mechatronics Student | Automation & CAD</h2>
+                <p class="hero-seeking">Focused on Automation, Control Systems & CAD Design</p>
+                <p class="hero-description">I am a Mechatronics Engineering student with foundational knowledge in
+                    automation, PLC concepts, CAD design, and basic IoT systems. Currently strengthening my foundation
+                    in industrial automation and control systems through academic projects and internships.</p>
+
+                <div class="hero-actions">
+                    <div style="display: flex; gap: 0.5rem; align-items: center;">
+                        <a href="assets/Sathma_Bashan_Resume_Update_v2.jpg" class="btn-primary"
+                            download="Sathma_Bashan_Resume.jpg">
+                            <i data-feather="download"></i> Resume Download
+                        </a>
+                        <button data-cert-src="assets/Sathma_Bashan_Resume_Update_v2.jpg" class="btn-secondary cert-btn"
+                            style="padding: 0.8rem; display: flex; align-items: center;" aria-label="View Resume">
+                            <i data-feather="eye"></i>
+                        </button>
+                    </div>
+                    <a href="#projects" class="btn-secondary">View Projects</a>
+                </div>
+
+                <div class="social-icons hero-socials">
+                    <a href="https://www.linkedin.com/in/sathma-bashan-k-b-m-/" target="_blank" aria-label="LinkedIn"><i
+                            data-feather="linkedin"></i></a>
+                    <a href="https://github.com/Sathmabashan" target="_blank" aria-label="GitHub"><i
+                            data-feather="github"></i></a>
+                    <a href="#contact" aria-label="Contact"><i data-feather="mail"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="modern-frame profile-frame">
+                    <div class="image-overlay"></div>
+                    <img src="assets/profile-photo.jpg" alt="Sathma Bashan K B M - Mechatronics Engineering Student"
+                        class="hero-img profile-img">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Credibility Metrics -->
+        <section class="credibility-section">
+            <div class="credibility-grid wrapper">
+                <a href="#projects" class="metric"><span class="metric-val">3+</span><span
+                        class="metric-label">Technical
+                        Projects</span></a>
+                <a href="#experience" class="metric"><span class="metric-val">3+</span><span
+                        class="metric-label">Internships
+                        Completed</span></a>
+                <a href="#certifications" class="metric"><span class="metric-val metric-val-small">AutoCAD</span><span
+                        class="metric-label">2D
+                        Drawing</span></a>
+                <div class="metric"><span class="metric-val metric-val-small">PLC Programming</span><span
+                        class="metric-label">Ladder Logic (Delta)</span></div>
+                <a href="#certifications" class="metric"><span class="metric-val metric-val-small">CREO
+                        Parametric</span><span class="metric-label">3D Modeling &amp; Assembly Design</span></a>
+            </div>
+        </section>
+
+        <!-- Technical Skills Bar (New) -->
+        <section id="skills" class="skills-banner">
+            <div class="wrapper">
+                <div class="section-header skills-header">
+                    <h2 class="section-title">Technical Skills & Tools</h2>
+                </div>
+                <div class="skills-structured">
+                    <div class="skill-category">
+                        <h3 class="category-title">Programming</h3>
+                        <div class="skills-container">
+                            <div class="skill-tag">C Programming</div>
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">Ladder Logic</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">Embedded & Hardware</h3>
+                        <div class="skills-container">
+                            <div class="skill-tag">Arduino</div>
+                            <div class="skill-tag">ESP32</div>
+                            <div class="skill-tag">Sensors & Actuators</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">Industrial & Design Tools</h3>
+                        <div class="skills-container">
+                            <div class="skill-tag">PLC (Delta)</div>
+                            <div class="skill-tag">AutoCAD</div>
+                            <div class="skill-tag">IoT Systems</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about border-section">
+            <div class="wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Summary</h2>
+                </div>
+                <div class="about-content">
+                    <p class="lead-text">Mechatronics Engineering student with hands-on experience in Embedded Systems,
+                        IoT, PLC programming, and CAD design.</p>
+                    <p>Passionate about building real-time automation systems and AI-driven solutions. Strong
+                        problem-solving skills with practical project experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Real-world engineering and automation deployments.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image-wrapper">
+                                    <img src="https://images.unsplash.com/photo-1530669229007-8e6ad71c77bd?q=80&w=800&auto=format&fit=crop"
+                                        loading="lazy" alt="AI-Based Autonomous Pot for Indoor Plant Cultivation"
+                                        class="sepia-filter">
+                                </div>
+                                <h3>AI-Based Autonomous Pot for Indoor Plant Cultivation</h3>
+                                <p class="project-date">Smart Irrigation System</p>
+                            </div>
+                            <div class="card-back">
+                                <h3>Specifications</h3>
+                                <p>IoT-based smart irrigation using ESP32 with sensors. Real-time control logic for
+                                    pumps.
+                                    Feature: AI-based leaf classification module.</p>
+                                <ul class="tech-stack">
+                                    <li>Python & OpenCV</li>
+                                    <li>AutoCAD</li>
+                                    <li>ESP32</li>
+                                </ul>
+                                <button class="btn-secondary project-more-btn" data-project-id="project-1">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image-wrapper">
+                                    <img src="assets/projects/line-follower.jpg" loading="lazy"
+                                        alt="Line Follower Robot" class="sepia-filter">
+                                </div>
+                                <h3>Line Follower Robot</h3>
+                                <p class="project-date">Arduino-based Control</p>
+                            </div>
+                            <div class="card-back">
+                                <h3>Specifications</h3>
+                                <p>Sensor-based robotic navigation system with optimized hardware mounting and stable
+                                    motor
+                                    control logic across surfaces.</p>
+                                <ul class="tech-stack">
+                                    <li>Arduino</li>
+                                    <li>Robotics</li>
+                                    <li>Control Logic</li>
+                                </ul>
+                                <button class="btn-secondary project-more-btn" data-project-id="project-2">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image-wrapper">
+                                    <img src="assets/projects/water-level.jpg" loading="lazy"
+                                        alt="Automatic Water Level Monitoring System" class="sepia-filter">
+                                </div>
+                                <h3>Automatic Water Level Monitoring System</h3>
+                                <p class="project-date">Industrial Tank Management</p>
+                            </div>
+                            <div class="card-back">
+                                <h3>Specifications</h3>
+                                <p>Sensor-based automated water management using embedded control logic, demonstrating
+                                    Industrial Automation principles.</p>
+                                <ul class="tech-stack">
+                                    <li>Embedded Control</li>
+                                    <li>Sensors</li>
+                                    <li>Validation</li>
+                                </ul>
+                                <button class="btn-secondary project-more-btn" data-project-id="project-3">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+        </section>
+
+        <!-- Experience / Ledger Section -->
+        <section id="experience" class="experience border-section">
+            <div class="wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Experience & Internships</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div class="timeline-title-row">
+                                    <h3>Linga Technologies</h3>
+                                    <span class="date">05.02.2025 – 11.02.2025</span>
+                                </div>
+                                <h4>Internship (1 Week)</h4>
+                                <div
+                                    style="font-size: 0.85rem; color: var(--clr-text-muted); display: inline-flex; align-items: center; margin-top: 0.4rem;">
+                                    <i data-feather="map-pin" style="width: 14px; height: 14px; margin-right: 6px;"></i>
+                                    Coimbatore, Tamil Nadu
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-section">
+                                    <h5>Key Responsibilities</h5>
+                                    <ul class="responsibility-list">
+                                        <li>Collaborated on the mechanical design and fabrication of industrial
+                                            automation components.</li>
+                                        <li>Conducted precision quality inspection on engineering prototypes.</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline-section">
+                                    <h5>Technical Exposure</h5>
+                                    <div class="exposure-tags">
+                                        <span class="exposure-tag">CAD Design</span>
+                                        <span class="exposure-tag">Mechanical Fabrication</span>
+                                        <span class="exposure-tag">Quality Control</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-section impact-section">
+                                    <h5>Internship Summary</h5>
+                                    <p>Successfully completed one-week internship in the Agricultural Product
+                                        Development Department, contributing to Shredder Machine projects and recognized
+                                        for a strong work ethic.</p>
+                                </div>
+                                <div class="timeline-footer">
+                                    <button data-cert-src="assets/certs/linga-internship.jpg"
+                                        class="btn-outline-cert cert-btn">
+                                        <i data-feather="award"></i> View Certificate
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div class="timeline-title-row">
+                                    <h3>Vels Wind Power</h3>
+                                    <span class="date">17.10.2024 – 18.10.2024</span>
+                                </div>
+                                <h4>Internship (2 Days)</h4>
+                                <div
+                                    style="font-size: 0.85rem; color: var(--clr-text-muted); display: inline-flex; align-items: center; margin-top: 0.4rem;">
+                                    <i data-feather="map-pin" style="width: 14px; height: 14px; margin-right: 6px;"></i>
+                                    Aralvaimozhi, Kanyakumari District
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-section">
+                                    <h5>Key Responsibilities</h5>
+                                    <ul class="responsibility-list">
+                                        <li>Integrated electrical components and managed PCB assembly for power
+                                            distribution units.</li>
+                                        <li>Assisted in the configuration of automation control panel layouts.</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline-section">
+                                    <h5>Technical Exposure</h5>
+                                    <div class="exposure-tags">
+                                        <span class="exposure-tag">PCB Assembly</span>
+                                        <span class="exposure-tag">Embedded Hardware</span>
+                                        <span class="exposure-tag">Industrial Power Systems</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-section impact-section">
+                                    <h5>Internship Summary</h5>
+                                    <p>Successfully completed internship program and was recognized as punctual,
+                                        hardworking, and inquisitive.</p>
+                                </div>
+                                <div class="timeline-footer">
+                                    <button data-cert-src="assets/certs/vels-internship.jpg"
+                                        class="btn-outline-cert cert-btn">
+                                        <i data-feather="award"></i> View Certificate
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div class="timeline-title-row">
+                                    <h3>Ruby Food Products</h3>
+                                    <span class="date">July 2024</span>
+                                </div>
+                                <h4>Internship</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="timeline-section">
+                                    <h5>Key Responsibilities</h5>
+                                    <ul class="responsibility-list">
+                                        <li>Analyzed high-speed automated production lines and integrated conveyor
+                                            systems.</li>
+                                        <li>Evaluated operational efficiency and identified areas for process
+                                            optimization.</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline-section">
+                                    <h5>Technical Exposure</h5>
+                                    <div class="exposure-tags">
+                                        <span class="exposure-tag">Automated Conveyors</span>
+                                        <span class="exposure-tag">PLC Workflows</span>
+                                        <span class="exposure-tag">Safety Standards</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-section impact-section">
+                                    <h5>Impact Outcome</h5>
+                                    <p>Built a strong foundation in industrial system troubleshooting, production
+                                        workflow integration, and real-time operational safety.</p>
+                                </div>
+                                <div class="timeline-footer">
+                                    <button data-cert-src="assets/certs/ruby-internship.jpg"
+                                        class="btn-outline-cert cert-btn">
+                                        <i data-feather="award"></i> View Certificate
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Professional Development -->
+        <section id="certifications" class="certifications border-section">
+            <div class="wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Certifications</h2>
+                    <p class="section-subtitle">Verified technical training in CAD design, programming, and
+                        problem-solving.</p>
+                </div>
+
+                <div class="cert-grid">
+                    <article class="cert-card">
+                        <div class="cert-header">
+                            <h4 class="cert-title">AutoCAD Professional Training (60 Hours)</h4>
+                            <span class="cert-org">Delauto Solutions</span>
+                            <span class="cert-date">February 2025 – March 2025</span>
+                        </div>
+                        <div class="cert-body">
+                            <p>Completed 60 hours of structured training covering 2D Sketching, Parametric Design, 3D
+                                Modeling, Mechanical Modeling, and Layout preparation.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <button class="btn-secondary btn-sm cert-btn"
+                                data-cert-src="assets/certs/autocad-cert.jpg">View Certificate</button>
+                        </div>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-header">
+                            <h4 class="cert-title">AutoCAD Boot Camp – 15 Days</h4>
+                            <span class="cert-org">Delauto Solutions</span>
+                            <span class="cert-date">2025</span>
+                        </div>
+                        <div class="cert-body">
+                            <p>Successfully completed an intensive 15-day AutoCAD Boot Camp focused on hands-on
+                                drafting, real-time design exercises, and applied CAD problem-solving.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <button class="btn-secondary btn-sm cert-btn"
+                                data-cert-src="assets/certs/autocad-bootcamp.jpg">View Certificate</button>
+                        </div>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-header">
+                            <h4 class="cert-title">Creo Parametric Design (60 Hours)</h4>
+                            <span class="cert-org">Delauto Solutions</span>
+                            <span class="cert-date">April 2025 – May 2025</span>
+                        </div>
+                        <div class="cert-body">
+                            <p>Gained proficiency in 2D sketching with constraints, advanced part features, assembly
+                                design, surface modeling, sheet metal design, and drawing detailing.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <button class="btn-secondary btn-sm cert-btn"
+                                data-cert-src="assets/certs/creo-cert.jpg">View Certificate</button>
+                        </div>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-header">
+                            <h4 class="cert-title">Python for Placement Readiness</h4>
+                            <span class="cert-org">byteXL</span>
+                            <span class="cert-date">July 21, 2025 – July 31, 2025</span>
+                        </div>
+                        <div class="cert-body">
+                            <p>Completed structured training focused on Python fundamentals, problem-solving techniques,
+                                and placement-oriented coding skills.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <button class="btn-secondary btn-sm cert-btn"
+                                data-cert-src="assets/certs/python-cert.png">View Certificate</button>
+                        </div>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-header">
+                            <h4 class="cert-title">Basic Data Structures and Algorithms</h4>
+                            <span class="cert-org">byteXL</span>
+                            <span class="cert-date">August 4, 2025 – September 9, 2025</span>
+                        </div>
+                        <div class="cert-body">
+                            <p>Successfully completed foundational training in data structures, algorithmic thinking,
+                                and structured problem-solving using Python.</p>
+                        </div>
+                        <div class="cert-footer">
+                            <button class="btn-secondary btn-sm cert-btn" data-cert-src="assets/certs/dsa-cert.png">View
+                                Certificate</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Achievements Section -->
+        <section id="achievements" class="border-section">
+            <div class="wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Achievements</h2>
+                    <p class="section-subtitle">Recognition & Academic Milestones</p>
+                </div>
+
+                <div class="achievement-grid" style="display: flex; flex-direction: column; gap: 1rem;">
+                    <!-- 2025 -->
+                    <div class="achievement-card">
+                        <i data-feather="star" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">Project Expo '25 (AI Employee)</h4>
+                            <span class="achievement-date">2025</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/project-expo.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i data-feather="star" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">All Round Performer Award</h4>
+                            <span class="achievement-date">2025</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/all-rounder-award.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+
+                    <!-- 2023-2024 -->
+                    <div class="achievement-card">
+                        <i data-feather="star" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">Best Performer</h4>
+                            <span class="achievement-date">Academic Year 2023–2024</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/best-performer.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+
+                    <!-- 2023 -->
+                    <div class="achievement-card">
+                        <i data-feather="award" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">Participant – Friends Chess Club District Level Tournament
+                            </h4>
+                            <span class="achievement-date">October 8, 2023</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/friends-chess-club.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i data-feather="award" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">Third Place – Coimbatore District Level Chess Tournament</h4>
+                            <span class="achievement-date">October 15, 2023</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/coimbatore-chess.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i data-feather="award" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">Second Place – Anna University Chess Zonal Tournament</h4>
+                            <span class="achievement-date">September 27, 2023</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/anna-university-chess.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i data-feather="crosshair" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">Third Place – Ideathon on "National Security"</h4>
+                            <span class="achievement-date">May 11, 2023</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/ideathon-security.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+
+                    <div class="achievement-card">
+                        <i data-feather="camera" class="achievement-icon"></i>
+                        <div class="achievement-content" style="flex: 1;">
+                            <h4 class="achievement-title">Macro Photography Event</h4>
+                            <span class="achievement-date">April 18, 2023</span>
+                        </div>
+                        <button class="btn-outline-cert cert-btn" data-cert-src="assets/certs/macro-photography.jpg"
+                            style="padding: 0.4rem 0.8rem; font-size: 0.75rem;">
+                            View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Contact</h2>
+                </div>
+                <p class="contact-text">Looking for opportunities in Embedded Systems and Automation.</p>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="from_name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="reply_to" required placeholder="john.doe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="How can I help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary form-submit" id="submitBtn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loader" style="display: none;"><i data-feather="loader"
+                                class="spin"></i></span>
+                    </button>
+                    <div id="form-status" class="form-status"></div>
+                </form>
+
+                <div class="contact-info-block">
+                    <div class="info-item">
+                        <i data-feather="mail"></i>
+                        <a href="mailto:sathmabashan.kbm.mct.2022@snsct.org">sathmabashan.kbm.mct.2022@snsct.org</a>
+                    </div>
+                    <div class="info-socials">
+                        <a href="https://www.linkedin.com/in/sathma-bashan-k-b-m-/" target="_blank" class="social-link"
+                            aria-label="LinkedIn">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Sathmabashan" target="_blank" class="social-link"
+                            aria-label="GitHub">
+                            <i data-feather="github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Sathma Bashan K B M. All Rights Preserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sathma-bashan-k-b-m-/" target="_blank" aria-label="LinkedIn"><i
+                        data-feather="linkedin"></i></a>
+                <a href="https://github.com/Sathmabashan" target="_blank" aria-label="GitHub"><i
+                        data-feather="github"></i></a>
+                <a href="#contact" aria-label="Contact"><i data-feather="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="cert-modal">
+        <div class="modal-content">
+            <button class="close-modal"><i data-feather="x"></i></button>
+            <img id="cert-image" src="" alt="Certificate Document">
+        </div>
+    </div>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="project-modal">
+        <div class="project-modal-content">
+            <button class="close-project-modal">&times;</button>
+            <div id="project-details-body">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Content Templates -->
+    <template id="project-1-template">
+        <h2 class="modal-project-title">AI-Based Autonomous Pot for Indoor Plant Cultivation</h2>
+        <div class="modal-section">
+            <h3><i data-feather="target"></i> Project Purpose</h3>
+            <p>The goal of this project was to automate indoor plant irrigation using IoT technology so that plants
+                receive the right amount of water based on environmental conditions rather than manual watering.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="cpu"></i> System Components</h3>
+            <p>The system uses an ESP32 microcontroller connected with soil moisture, pH, temperature, and humidity
+                sensors. These sensors collect real-time environmental data required for monitoring plant health.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="settings"></i> Automation Logic</h3>
+            <p>The ESP32 processes the sensor data and uses threshold-based control logic. When the soil moisture level
+                falls below the required value, the system automatically activates a water pump and solenoid valve to
+                supply water.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="monitor"></i> AI Integration</h3>
+            <p>A basic AI module was implemented using Python and OpenCV to experiment with leaf classification. This
+                helped in understanding how computer vision concepts can be integrated with smart agriculture systems.
+            </p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="edit-3"></i> Design & Development</h3>
+            <p>The enclosure for the system was designed using AutoCAD in both 2D and 3D formats to ensure proper
+                component placement and protection of electronics.</p>
+        </div>
+        <div class="modal-section accent-box">
+            <h3><i data-feather="book-open"></i> Key Learning Outcome</h3>
+            <p>This project improved my understanding of IoT systems, sensor integration, automation logic, and how
+                hardware and software work together in a smart system.</p>
+        </div>
+    </template>
+
+    <template id="project-2-template">
+        <h2 class="modal-project-title">Line Follower Robot</h2>
+        <div class="modal-section">
+            <h3><i data-feather="target"></i> Project Purpose</h3>
+            <p>The objective of this project was to design a small autonomous robot capable of following a predefined
+                path using sensor-based navigation.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="layers"></i> Hardware Setup</h3>
+            <p>The robot was built using an Arduino microcontroller, IR sensors for path detection, DC motors for
+                movement, and a motor driver module to control motor direction and speed.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="activity"></i> Working Principle</h3>
+            <p>The IR sensors detect the contrast between the black line and the white surface. The Arduino reads these
+                signals and determines whether the robot should move straight, turn left, or turn right.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="terminal"></i> Control Logic Implementation</h3>
+            <p>Conditional programming logic was written so that when the robot deviates from the path, the motors
+                adjust speed to bring the robot back onto the line.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="check-circle"></i> Testing & Optimization</h3>
+            <p>Multiple tests were performed on curved tracks and uneven surfaces to improve stability and smooth
+                navigation.</p>
+        </div>
+        <div class="modal-section accent-box">
+            <h3><i data-feather="book-open"></i> Key Learning Outcome</h3>
+            <p>This project helped me understand robotics fundamentals, embedded programming, motor control systems, and
+                sensor-based automation.</p>
+        </div>
+    </template>
+
+    <template id="project-3-template">
+        <h2 class="modal-project-title">Automatic Water Level Monitoring System</h2>
+        <div class="modal-section">
+            <h3><i data-feather="target"></i> Project Purpose</h3>
+            <p>The aim of this project was to automate the monitoring and control of water levels in storage tanks to
+                avoid overflow and pump damage caused by dry running.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="cpu"></i> System Components</h3>
+            <p>The system uses water level sensors connected to a microcontroller and a relay module that controls the
+                water pump.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="refresh-cw"></i> Working Mechanism</h3>
+            <p>When the water level drops below the lower threshold, the controller activates the pump through the
+                relay. Once the water reaches the upper limit, the pump is automatically turned off.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="tool"></i> Prototype Development</h3>
+            <p>A basic tank layout was designed and the system was tested to verify correct switching behavior and
+                reliability.</p>
+        </div>
+        <div class="modal-section">
+            <h3><i data-feather="briefcase"></i> Industrial Relevance</h3>
+            <p>Similar water level automation systems are widely used in residential buildings, agricultural irrigation,
+                and industrial water storage systems.</p>
+        </div>
+        <div class="modal-section accent-box">
+            <h3><i data-feather="book-open"></i> Key Learning Outcome</h3>
+            <p>This project strengthened my understanding of control logic, automation systems, and practical system
+                testing.</p>
+        </div>
+    </template>
+
+    <!-- Script imports -->
+    <script>
+        feather.replace()
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
