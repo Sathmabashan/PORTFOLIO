@@ -209,9 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (contactForm && submitBtn && formStatus) {
         // Initialize EmailJS with your Public Key
         // REPLACE 'YOUR_PUBLIC_KEY' with your actual EmailJS Public Key
-        emailjs.init({
-            publicKey: "YOUR_PUBLIC_KEY",
-        });
+        emailjs.init("YOUR_PUBLIC_KEY");
 
         contactForm.addEventListener('submit', function (event) {
             event.preventDefault();
