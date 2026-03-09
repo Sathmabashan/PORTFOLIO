@@ -506,13 +506,19 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: var(--clr-bg-card);
+    border: 1px solid var(--clr-border);
+    border-radius: var(--border-radius);
     transition: var(--transition);
     cursor: pointer;
     text-decoration: none;
 }
 
 .metric:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    border-color: var(--clr-accent);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15);
 }
 
 .metric-val {
@@ -1474,7 +1480,8 @@ footer {
 
 /* Certificate Modal (Lightbox) */
 .cert-modal {
-    display: none;
+    visibility: hidden;
+    pointer-events: none;
     position: fixed;
     z-index: 9999;
     left: 0;
@@ -1484,13 +1491,15 @@ footer {
     background-color: rgba(10, 25, 47, 0.95);
     backdrop-filter: blur(8px);
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .cert-modal.show {
-    display: flex;
+    visibility: visible;
+    pointer-events: auto;
     opacity: 1;
 }
 
@@ -1538,7 +1547,8 @@ footer {
 
 /* Project Details Modal */
 .project-modal {
-    display: none;
+    visibility: hidden;
+    pointer-events: none;
     position: fixed;
     z-index: 10000;
     left: 0;
@@ -1549,14 +1559,16 @@ footer {
     backdrop-filter: blur(12px);
     overflow-y: auto;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
     align-items: flex-start;
     justify-content: center;
     padding: 40px 20px;
+    display: flex;
 }
 
 .project-modal.show {
-    display: flex;
+    visibility: visible;
+    pointer-events: auto;
     opacity: 1;
 }
 
